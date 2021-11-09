@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.hero{
+   
+    padding-bottom: 40px;
+    height: 100%;
+    background-image: linear-gradient(rgba(252, 230, 210, 0.363),rgba(252, 230, 210, 0.363)), url("/img/Sun on Twitter.jpg");
+    
+    
+}
+.nav_bar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-flex;
+    width: 100%;
+
+    justify-content: space-between;
+    
+}
+.band{
+    margin-left: 40px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+
+h2{
+    margin: 20px 10px 20px 10px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: rgb(253, 240, 229);
+}
+.logo{
+    margin-top: 10px;
+    
+    height: 50px;
+    width: 45px;
+}
+.li{
+    height: max-content;
+    align-self: center;
+    margin-right: 50px;
+    padding: 20px 40px 20px 40px;
+    border: rgb(253, 240, 229) 0.5px solid;
+    box-shadow: rgb(253, 240, 229) -1px 1px 4px;
+}
+.li > a{
+    display: inline-flex;
+
+    float: left;
+    left: 2000px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(253, 240, 229);  
+}
+.li:hover{
+    box-shadow: rgb(253, 240, 229) -2px 2px 4px;
+}
+.pa-container{
+    margin-top: 80px;
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    padding-bottom: 80px;
+    /* identical to box height, or 20px */
+
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(165, 77, 42);
+}
+.pa-container > h3{
+    font-size: 30px;
+}
+.pa-container > p{
+    font-size: 20px;
+}
+.abouMeContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 100%;
+    color: rgb(165, 77, 42);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    background-color: rgb(255, 239, 225);
+
+}
+.abouMeContainer>h4{
+   
+    font-size: 40px;
+    padding-left: 100px;
+    margin: 0;
+}
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgb(165, 77, 42);
+    margin: 0;
+    justify-content: space-between;
+
+
+}
+.aboutme>p{
+    align-self: center;
+    width: fit-content;
+    letter-spacing: 0.02em;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.aboutme>img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.aboutme>img:hover{
+    transform: translateX(0.5em);
+    box-shadow: rgb(165, 77, 42) -5px 5px 1px;
+    transition-duration: 200ms;
+    
+}
+.techContainer{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    /* background-color: rgb(240, 231, 223); */
+    text-align: center;
+
+}
+.techContainer>h2{
+    color: rgb(165, 77, 42);
+    text-decoration: underline rgb(165, 77, 42);
+    padding-bottom: 40px;
+}
+.cardContainer>.card{
+    display: inline-flex;
+    width: 190px;
+    height: max-content;
+    text-align: center;
+    align-self: center;
+    margin-right: 50px;
+    padding: 20px 40px 20px 40px;
+    border: rgb(165, 77, 42) 0.5px solid;
+    background-color: rgb(255, 239, 225);
+}
+.card{
+    display: flex;
+    flex-direction: column
+}
+.card:hover{
+    box-shadow: rgb(165, 77, 42) -5px 5px 1px;
+    transform: translateX(0.5em);
+    transition-duration: 200ms;
+}
+.card>img{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+.card>p{
+    text-align: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    color: rgb(165, 77, 42);
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: rgb(165, 77, 42);
+    margin: 0;
+    padding: 60px 40px 20px 40px;
+}
+.projectContainer>h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.projectContainer>.cardbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.cardbox>.designdweb{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 239, 225);
+}
+.cardbox>.designdweb>h3{
+    align-self: center;
+    text-align: center;
+    text-decoration: underline rgb(165, 77, 42);
+}
+.cardbox>.designdweb>img{
+    padding: 20px;
+}
+.cardbox>.designdweb>p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cardbox>.designdweb:hover{
+    transform: translateX(0.5em);
+    box-shadow: rgb(165, 77, 42) -5px 5px 1px;
+    transition-duration: 200ms;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin: 0;
+    margin-top: 40px;
+    background-color: rgb(66, 66, 66);
+
+}
+.footercontainer>.formcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: #ffeaea;
+    margin-left: 20px;
+    padding: 35px 40px 40px 40px;
+}
+.formcontainer>.container{
+    margin: 5px  5px 5px 0;
+}
+.footercontainer>.form{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 50px 50px 0 50px;
+}
+.email>h5{
+    margin: 5px;
+    margin-top: 20px;
+}
+.email>form>input{
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+}
+form>button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: fit-content + 10px;
+    padding: 5px;
+    font-size: 20px;
+    
+    border: none;
+    color: rgb(165, 77, 42);
+    background-color: #ffeaea;
+}
+form>button:hover{
+    box-shadow: rgb(0, 0, 0) -5px 5px 1px;
+}
+.contactme{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: #ffeaea;
+    margin-left: 20px;
+    
+    padding: 20px 40px 20px 40px;
+}
+.contactme>h3{
+    padding-left: 30px;
+}
+
+ul{
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+ul>li>.Contact{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+li>.Contact>img{
+    height: 28px;
+    width: 28px;
+    align-self: center;
+}
+li>.Contact>.foot{
+    align-self: center;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #ffeaea;
+}
+li>.Contact>.foot:hover{
+    text-decoration: underline #ffeaea;
+}
+
+.copyright{
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    font-family: Gilroy;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    text-align: center;
+}
